@@ -1,11 +1,8 @@
-import DataPageWithXState from "./DataPageWithXState";
+import { DemoPage } from './pages/DemoPage';
+import './App.css';
 
 function App() {
-  return (
-    <>
-      <DataPageWithXState />
-    </>
-  );
+  return <DemoPage />;
 }
 
 export default App;
